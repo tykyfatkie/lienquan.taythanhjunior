@@ -18,7 +18,7 @@ const FeatureProperties = () => {
   return (
     <>
       <Slider {...settings} arrows={false}>
-        {featureProContent.slice(0, 5).map((item) => (
+        {featureProContent.slice(0, 1).map((item) => (
           <div className="item" key={item.id}>
             <div className="feat_property home7">
               <div className="thumb">

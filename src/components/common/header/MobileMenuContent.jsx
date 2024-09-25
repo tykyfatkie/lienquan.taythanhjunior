@@ -14,46 +14,46 @@ import {useNavigate} from 'react-router-dom';
 
 
 const home = [
+  // {
+  //   name: "Home 1",
+  //   routerPath: "/",
+  // },
+  // {
+  //   name: "Home 2",
+  //   routerPath: "/home-2",
+  // },
+  // {
+  //   name: "Home 3",
+  //   routerPath: "/home-3",
+  // },
   {
-    name: "Home 1",
-    routerPath: "/",
-  },
-  {
-    name: "Home 2",
-    routerPath: "/home-2",
-  },
-  {
-    name: "Home 3",
-    routerPath: "/home-3",
-  },
-  {
-    name: "Home 4",
+    name: "Trang chủ",
     routerPath: "/home-4",
   },
-  {
-    name: "Home 5",
-    routerPath: "/home-5",
-  },
-  {
-    name: "Home 6",
-    routerPath: "/home-6",
-  },
-  {
-    name: "Home 7",
-    routerPath: "/home-7",
-  },
-  {
-    name: "Home 8",
-    routerPath: "/home-8",
-  },
-  {
-    name: "Home 9",
-    routerPath: "/home-9",
-  },
-  {
-    name: "Home 10",
-    routerPath: "/home-10",
-  },
+  // {
+  //   name: "Home 5",
+  //   routerPath: "/home-5",
+  // },
+  // {
+  //   name: "Home 6",
+  //   routerPath: "/home-6",
+  // },
+  // {
+  //   name: "Home 7",
+  //   routerPath: "/home-7",
+  // },
+  // {
+  //   name: "Home 8",
+  //   routerPath: "/home-8",
+  // },
+  // {
+  //   name: "Home 9",
+  //   routerPath: "/home-9",
+  // },
+  // {
+  //   name: "Home 10",
+  //   routerPath: "/home-10",
+  // },
 ];
 
 const listing = [
@@ -315,7 +315,7 @@ const MobileMenuContent = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo.png"
             />
-            <span className="brand-text">FindHouse</span>
+            <span className="brand-text">Tây Thạnh Junior</span>
           </Link>
           {/* End .logo */}
 
@@ -334,7 +334,7 @@ const MobileMenuContent = () => {
     <div style={{maxHeight:'calc(100vh - 100px)', overflowY:'auto'}}>
         <Menu>
           <SubMenu
-            label="Home"
+            label="Trang chủ"
            
             className={
               home.some((page) => page.routerPath?.split('/')[1] === pathname.split('/')[1])
@@ -358,7 +358,7 @@ const MobileMenuContent = () => {
           </SubMenu>
           {/* End Home Home */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Listing"
             className={
               listing.some((parent) => {
@@ -396,10 +396,10 @@ const MobileMenuContent = () => {
                 ))}
               </SubMenu>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End Pages Listing */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Property"
             className={
               property.some((parent) => {
@@ -444,10 +444,10 @@ const MobileMenuContent = () => {
                 ))}
               </SubMenu>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End Pages Property */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Blog"
             className={
               blog.some(
@@ -474,10 +474,10 @@ const MobileMenuContent = () => {
                 </div>
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End pages Blog */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Pages"
             className={
               pages.some((page) => page.routerPath?.split('/')[1] === pathname.split('/')[1])
@@ -497,7 +497,7 @@ const MobileMenuContent = () => {
                 </div>
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End pages Pages */}
 
           <MenuItem>
@@ -508,7 +508,7 @@ const MobileMenuContent = () => {
                 pathname === "/contact" ? "ui-active" : 'inactive-mobile-menu'
               }
             >
-              Contact
+              Liên hệ
             </div>
           </MenuItem>
 
@@ -518,7 +518,7 @@ const MobileMenuContent = () => {
     
               className={pathname === "/login" ? "ui-active" : 'inactive-mobile-menu'}
             >
-              <span className="flaticon-user"></span> Login
+              <span className="flaticon-user"></span> Đăng nhập
             </div>
           </MenuItem>
 
@@ -530,7 +530,7 @@ const MobileMenuContent = () => {
                 pathname === "/register" ? "ui-active" : 'inactive-mobile-menu'
               }
             >
-              <span className="flaticon-edit"></span> Register
+              <span className="flaticon-edit"></span> Đăng ký
             </div>
           </MenuItem>
         </Menu>
@@ -538,13 +538,16 @@ const MobileMenuContent = () => {
       {/* </Sidebar> */}
 
       
-        <Link
-          to="/create-listing"
-          className="btn btn-block btn-lg btn-thm circle"
-          style={{width:'90%',margin:'0px auto'}}
-        >
-          <span className="flaticon-plus"></span> Create Listing
-        </Link></>
+      <a
+  className="btn btn-block btn-lg btn-thm circle"
+  style={{ width: '90%', margin: '0px auto', display: 'block', textAlign: 'center' }}
+  href="https://discord.gg/dV4PDpg4st"
+  target="_blank" // thêm để mở link trong tab mới nếu cần
+>
+  <span className="flaticon-plus"></span> Tham gia Discord
+</a>
+
+        </>
      
    
   );

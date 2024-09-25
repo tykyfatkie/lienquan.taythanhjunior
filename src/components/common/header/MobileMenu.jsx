@@ -15,7 +15,7 @@ const MobileMenu = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span className="mt20">FindHouse</span>
+            <span className="mt20">Tây Thạnh Junior</span>
           </div>
           {/* main_logo_home2 */}
 

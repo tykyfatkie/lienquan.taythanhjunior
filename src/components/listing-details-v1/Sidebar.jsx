@@ -8,12 +8,13 @@ const Sidebar = () => {
   return (
     <>
       <div className="sidebar_listing_list">
-        <div className="sidebar_advanced_search_widget">
-          <div className="sl_creator">
-            <h4 className="mb25">Liên hệ</h4>
-          </div>
-          {/* End .sl_creator */}
-          <ContactWithAgent />
+        <div className="search_option_button">
+          <button
+            type="button"
+            className="btn btn-block btn-thm w-100"
+            onClick={() => window.location.href='https://forms.gle/EwAH9DmbdJwpCu4n8'}>
+            Đăng ký
+          </button>
         </div>
       </div>
       {/* End .sidebar_listing_list */}
