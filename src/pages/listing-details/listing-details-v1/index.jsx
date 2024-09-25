@@ -14,9 +14,9 @@ import {useParams} from 'react-router-dom'
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: 'Listing Single – Details V1 || FindHouse - Real Estate React Template',
+  title: 'Tây Thạnh Junior',
   description:
-    'FindHouse - Real Estate React Template',
+    'Tây Thạnh Junior',
 }
 
 const ListingDynamicDetailsV1 = () => {

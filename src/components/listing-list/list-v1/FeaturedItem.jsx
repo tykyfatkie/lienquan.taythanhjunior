@@ -167,13 +167,13 @@ const FeaturedItem = () => {
                 </li>
               </ul>
 
-              <Link
+              {/* <Link
                 to={`/listing-details-v1/${item.id}`}
                 className="fp_price"
               >
                 ${item.price}
                 <small>/mo</small>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="details">
