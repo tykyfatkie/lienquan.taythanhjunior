@@ -9,7 +9,7 @@ const Team = () => {
   const settings = {
     dots: false,
     arrows: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 3,
     autoplay: false,
     speed: 1200,

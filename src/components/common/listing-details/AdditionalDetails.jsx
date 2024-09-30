@@ -15,7 +15,7 @@ const AdditionalDetails = () => {
           </li>
           <li>
             <p>
-              Đối tượng : <span>HS Tây Thạnh/Cựu HS Tây Thạnh và HS trường THPT Trần Phú, THPT Bình Hưng Hòa và THPT Lê Trọng Tấn</span>
+              Đối tượng : <span>HS Tây Thạnh/Cựu HS Tây Thạnh và HS trường THPT Trần Phú, THPT Bình Hưng Hòa, THPT Tân Bình và THPT Lê Trọng Tấn</span>
             </p>
           </li>
         </ul>
